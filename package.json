@@ -1,0 +1,27 @@
+{
+  "name": "enver.in",
+  "version": "1.0.0",
+  "description": "Personal page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enverarslan/enver.in.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enverarslan/enver.in/issues"
+  },
+  "homepage": "https://github.com/enverarslan/enver.in#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

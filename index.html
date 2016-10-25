@@ -1,187 +1,20 @@
 <html>
-  <head>
-    <title></title>
+<head>
+    <title>Enver Arslan</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&amp;subset=latin-ext" rel="stylesheet">
-    <style media="screen">
-      body{
-        margin:0;
-        background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-        overflow: hidden;
-        font-family: 'Lato', sans-serif;
-      }
-      .space{
-        position:relative;
-      }
-      .star{
-        width: 1px;
-        height:1px;
-        background:#fff;
-        position:absolute;
-        transition: top 10s ease, left 10s ease, width 10s ease, height 10s ease;
-        box-shadow: 1px 1px 10px #fff;
-        opacity: 0;
-        animation: opaq 1s infinite;
-      }
-
-      @keyframes opaq {
-        0%   {opacity:.8}
-        100%   {opacity:1}
-      }
-
-      .content{
-        padding: 5%;
-        z-index: 2;
-        color: #fff;
-        transition: all 2s ease;
-      }
-      .content h1{
-        font-size: 1.5em;
-        line-height: 2rem;
-        font-weight: 900;
-        margin:0;
-        text-shadow: 5px 0px 0px rgba(255, 255, 255, 0.09);
-      }
-      .content p{
-        font-size: 1.25em;
-        font-weight: 300;
-        margin:1em 0 0;
-      }
-      .content a{
-        color: #fff;
-        text-decoration: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-      }
-      .content a:hover{
-        border-color: #fff;
-      }
-
-      @media all and (min-width: 767px){
-        .content h1{
-          font-size: 2em;
-          line-height: 3rem;
-
-        }
-        .content p{
-          font-size: 1.5em;
-        }
-      }
-      @media all and (min-width: 992px){
-        .content h1{
-          font-size: 3em;
-          line-height: 5rem;
-
-        }
-        .content p{
-          font-size: 2em;
-        }
-      }
-      @media all and (min-width: 1199px){
-        .content{
-          padding:10%;
-        }
-      }
-    </style>
-
-  </head>
-  <body>
-    <div class="space"></div>
-
-    <div class="content"><h1>Hi,<br>I'm ENVER,<br>Full Stack Web Developer<br>who builds great and scalable web apps.</h1><p>Browse <a
-      href="//linkedin.com/in/enverarslan" target="_blank">my resume</a> and deep dive <a href="//github.com/enverarslan" target="_blank">my code</a> or <a
-      href="mailto:enver@programmer.net">contact with me</a>.</p></div>
-
-
-
-
-    <script>
-    var wW = window.innerWidth -10;
-    var wH = window.innerHeight -10;
-
-
-    window.onresize = function() {
-      wW = window.innerWidth -10;
-      wH = window.innerHeight -10;
-      play(wW, wH);
-    };
-
-
-    for(var i= 0; i < 100; i++){
-      var div = document.createElement('div');
-      div.className = "star";
-      document.body.querySelector('.space').appendChild(div);
-    }
-
-    var stars = [].slice.call(document.getElementsByClassName('star'));
-
-
-    function play(width, height){
-      shuffle(stars).map(function(star, index){
-
-        var left = random(width);
-        var top = random(height);
-        var big = random((stars.length - 1));
-
-
-        star.style["width"] = "1px";
-        star.style["height"] = "1px";
-
-        if( (index % 3 == 0) ){
-          star.style["width"] = "3px";
-          star.style["height"] = "3px";
-        }
-
-        star.style["top"] = top + "px";
-        star.style["left"] = left + "px";
-
-        //star.style["opacity"] = "1";
-
-      });
-    }
-
-
-
-    function random(size){
-      var rand = Math.round(Math.random() * size);
-
-
-      if(rand >= size){
-        return random(size);
-      }
-
-      return rand;
-    }
-
-    function shuffle(array) {
-      var currentIndex = array.length, temporaryValue, randomIndex;
-
-      // While there remain elements to shuffle...
-      while (0 !== currentIndex) {
-
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-      }
-
-      return array;
-    }
-
-
-    play(wW, wH);
-    setInterval(function(){
-      play(wW, wH);
-    }, 12000)
-
-
-
-
-
-
-
-    </script>
-  </body>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="space"></div>
+<div class="content">
+    <h1>Hi,<br>I'm ENVER,<br>Full Stack Web Developer<br>who builds great and scalable web apps.</h1>
+    <p>Browse <a href="//linkedin.com/in/enverarslan" target="_blank">my resume</a> and deep dive <a
+            href="//github.com/enverarslan" target="_blank">my code</a> or <a href="mailto:enver@programmer.net">contact
+        with me</a>.</p>
+</div>
+<script src="assets/main.js"></script>
+</body>
 </html>
