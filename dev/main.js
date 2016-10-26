@@ -29,8 +29,8 @@
             star.style["height"] = "1px";
 
             if ((index % 3 == 0)) {
-                star.style["width"] = "3px";
-                star.style["height"] = "3px";
+                star.style["width"] = "2px";
+                star.style["height"] = "2px";
             }
             star.style["transform"] =  "translate("+ left +"px, " + top + "px)";
             star.style["webkitTransform"] =  "translate("+ left +"px, " + top + "px)";
