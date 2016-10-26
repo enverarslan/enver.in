@@ -32,8 +32,11 @@
                 star.style["width"] = "3px";
                 star.style["height"] = "3px";
             }
-            star.style["top"] = top + "px";
-            star.style["left"] = left + "px";
+            star.style["transform"] =  "translate("+ left +"px, " + top + "px)";
+            star.style["webkitTransform"] =  "translate("+ left +"px, " + top + "px)";
+            star.style["msTransform"] =  "translate("+ left +"px, " + top + "px)";
+            star.style["OTransform"] =  "translate("+ left +"px, " + top + "px)";
+            star.style["MozTransform"] =  "translate("+ left +"px, " + top + "px)";
         });
     }
 

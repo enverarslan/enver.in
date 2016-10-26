@@ -15,7 +15,7 @@ body {
     height: 1px;
     background: #fff;
     position: absolute;
-    transition: top 10s ease, left 10s ease, width 10s ease, height 10s ease;
+    transition: transform 10s ease, width 10s ease, height 10s ease;
     box-shadow: 1px 1px 10px #fff;
     opacity: 0;
     animation: opaq 1s infinite;
