@@ -59,8 +59,8 @@ body {
     }
   }
 }
-.music{
-  display: none;
+.music, .fakebutton{
+  visibility: hidden;
 }
 @media all and (min-width: 767px) {
   .content {
