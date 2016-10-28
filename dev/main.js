@@ -74,6 +74,12 @@
         document.addEventListener('load', start_play, false);
         music.addEventListener('load', start_play, false);
 
+
+        if('TouchEvent' in document){
+            var e = document.createEvent('TouchEvent');
+            e.initTouchEvent();
+        }
+
         start_play();
 
     }
