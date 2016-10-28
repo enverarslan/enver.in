@@ -75,8 +75,7 @@
         music.addEventListener('load', start_play, false);
 
 
-        if('TouchEvent' in document){
-            alert(1);
+        if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch){
             var e = document.createEvent('TouchEvent');
             e.initTouchEvent();
         }
