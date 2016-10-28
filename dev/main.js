@@ -61,41 +61,18 @@
     }
 
     function music(){
-        var fakebutton = document.querySelector('.fakebutton');
 
         var music = document.querySelector('.music');
 
-        fakebutton.addEventListener('click', function(){
-            music.play();
-        }, false);
-
-        music.addEventListener('ended', function () {
-            start_play();
-        }, false);
-
         function start_play(){
-            if(navigator.userAgent.indexOf("Safari")){
-                triggerClick(fakebutton)
-                console.log(1);
-            }else{
-                music.play();
-            }
+            music.load();
+            music.play();
         }
 
-
-        function triggerClick(element) {
-            if(document.createEvent) {
-                var evt = document.createEvent("MouseEvents");
-                evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-                element.dispatchEvent(evt);
-            }
-            else {
-                element.click();
-            }
-        }
+        music.addEventListener('ended', start_play, false);
+        window.addEventListener('touchstart', start_play, false);
 
         start_play();
-
 
     }
 
