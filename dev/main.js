@@ -65,8 +65,10 @@
         var music = document.querySelector('.music');
 
         function start_play(){
-            music.load();
-            music.play();
+            if(music.paused){
+                music.load();
+                music.play();
+            }
         }
 
         music.addEventListener('ended', start_play, false);
