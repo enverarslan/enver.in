@@ -76,6 +76,7 @@
 
 
         if('TouchEvent' in document){
+            alert(1);
             var e = document.createEvent('TouchEvent');
             e.initTouchEvent();
         }
