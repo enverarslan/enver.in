@@ -61,15 +61,17 @@
     }
 
     function music(){
-
         var music = document.querySelector('.music');
-        music.load();
         function start_play(){
-            music.play();
+            if(music.paused){
+                music.load();
+                music.play()
+            }
         }
 
         music.addEventListener('ended', start_play, false);
-        //window.addEventListener('touchstart', start_play, false);
+        window.addEventListener('touchstart', start_play, false);
+        document.addEventListener('load', start_play, false);
         music.addEventListener('load', start_play, false);
 
         start_play();
