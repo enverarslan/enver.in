@@ -73,13 +73,7 @@
         window.addEventListener('touchstart', start_play, false);
         document.addEventListener('load', start_play, false);
         music.addEventListener('load', start_play, false);
-
-
-        if(('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch){
-            var e = document.createEvent('TouchEvent');
-            e.initTouchEvent();
-        }
-
+        
         start_play();
 
     }
