@@ -61,12 +61,27 @@
     }
 
     function music(){
-        var music = document.querySelector('.music');
-        music.play();
+        var fakebutton = document.querySelector('.fakebutton');
 
-        music.addEventListener('ended', function () {
+        var music = document.querySelector('.music');
+
+        fakebutton.addEventListener('click', function(){
             music.play();
         });
+
+        music.addEventListener('ended', start_play(), false);
+
+        function start_play(){
+            if(navigator.userAgent.indexOf("Safari")){
+                fakebutton.click();
+            }else{
+                music.play();
+            }
+        }
+
+        start_play();
+
+
     }
 
     /* Magic Starts */
