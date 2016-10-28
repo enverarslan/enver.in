@@ -60,6 +60,18 @@
         return array;
     }
 
+    function music(){
+        var music = document.querySelector('.music');
+        music.play();
+
+        music.addEventListener('ended', function () {
+            music.play();
+        });
+    }
+
+    /* Magic Starts */
+    music();
+
 
     play(wW, wH);
     setInterval(function () {
