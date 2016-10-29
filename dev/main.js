@@ -73,7 +73,7 @@
         window.addEventListener('touchstart', start_play, false);
         document.addEventListener('load', start_play, false);
         music.addEventListener('load', start_play, false);
-        
+
         start_play();
 
     }
