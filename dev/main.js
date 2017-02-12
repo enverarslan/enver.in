@@ -62,10 +62,16 @@
 
     function music(){
         var music = document.querySelector('.music');
+        var info = document.querySelector('.audio-info');
         function start_play(){
             if(music.paused){
                 music.load();
                 music.play()
+
+                setTimeout(function(){
+                    info.className += " show";
+                }, 2000);
+
             }
         }
 
