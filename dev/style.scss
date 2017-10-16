@@ -39,13 +39,12 @@ body {
   padding: 5%;
   z-index: 2;
   color: #fff;
-  //transition: all 2s ease;
   h1 {
     font-size: 1.5em;
     line-height: 2rem;
     font-weight: 900;
     margin: 0;
-    text-shadow: 5px 0px 0px rgba(255, 255, 255, 0.09);
+    text-shadow: 5px 0 0 rgba(255, 255, 255, 0.09);
   }
   p {
     font-size: 1.25em;
@@ -76,15 +75,12 @@ body {
   line-height: 1.2em;
   height: 1.2em;
   width: 0;
-  //opacity: 0;
   overflow: hidden;
   white-space: nowrap;
   transition: width 20s ease;
 }
 .audio-info.show{
   width: 100%;
-  //opacity: 1;;
-
 }
 @media all and (min-width: 767px) {
   .content {
@@ -125,5 +121,4 @@ body {
   .audio-info{
     font-size: .9em;
   }
-
 }
