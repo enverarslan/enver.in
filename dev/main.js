@@ -55,27 +55,6 @@
         }
         return array;
     }
-    /* Play music on the silent Universe */
-    function music(){
-        var music = document.querySelector('.music');
-        var info = document.querySelector('.audio-info');
-        function start_play(){
-            if(music.paused){
-                music.load();
-                music.play();
-                setTimeout(function(){
-                    info.className += " show";
-                }, 2000);
-            }
-        }
-        music.addEventListener('load', start_play, false);
-        music.addEventListener('ended', start_play, false);
-        start_play();
-    }
-
-    /* Music are starting to magic. */
-    music();
-    window.addEventListener('touchstart', music, true);
     /* Stars are starting to journey in the Universe. */
     play(wW, wH);
     setInterval(function () {
