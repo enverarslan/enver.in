@@ -21,16 +21,24 @@
     /* Give power to stars for them are starting to journey in the Universe. */
     function play(width, height) {
         shuffle(stars).map(function (star, index) {
-            var left = random(width);
-            var top = random(height);
+            var left = randomPosition(width);
+            var top = randomPosition(height);
 
-            star.style["width"] = "1px";
-            star.style["height"] = "1px";
+            star.style["background"] = randomColor();
 
-            if ((index % 3 === 0)) {
-                star.style["width"] = "2px";
-                star.style["height"] = "2px";
+            
+
+            if ((index % 5 === 0)) {
+                star.style["width"] = "5px";
+                star.style["height"] = "5px";
+            }else if ((index % 3 === 0)) {
+                star.style["width"] = "3px";
+                star.style["height"] = "3px";
+            }else{
+                star.style["width"] = "1px";
+                star.style["height"] = "1px";
             }
+
             star.style["transform"] =  "translate("+ left +"px, " + top + "px)";
             star.style["webkitTransform"] =  "translate("+ left +"px, " + top + "px)";
             star.style["msTransform"] =  "translate("+ left +"px, " + top + "px)";
@@ -38,10 +46,14 @@
             star.style["MozTransform"] =  "translate("+ left +"px, " + top + "px)";
         });
     }
+    /* Randomize star color */
+    function randomColor(){
+        return "#" + Math.floor(Math.random()*16777215).toString(16);
+    }
     /* Randomize star location */
-    function random(size) {
+    function randomPosition(size) {
         var rand = Math.round(Math.random() * size);
-        return (rand >= size) ? random(size) : rand;
+        return (rand >= size) ? randomPosition(size) : rand;
     }
     /* Shuffle stars list. */
     function shuffle(array) {
@@ -59,5 +71,5 @@
     play(wW, wH);
     setInterval(function () {
         play(wW, wH);
-    }, 12000);
+    }, 8000);
 })(window);

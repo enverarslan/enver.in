@@ -17,16 +17,16 @@ body {
 
 .space {
   position: relative;
-
   .star {
     width: 1px;
     height: 1px;
     background: #fff;
     position: absolute;
-    transition: transform 10s ease, width 10s ease, height 10s ease;
+    transition: transform 8s ease, width 8s ease, height 8s ease;
     box-shadow: 1px 1px 10px #fff;
     opacity: 0;
     animation: opaq 1s infinite;
+    border-radius: 100%;
   }
 }
 
@@ -47,13 +47,15 @@ body {
     font-size: 1.5em;
     line-height: 2rem;
     font-weight: 900;
+    font-family: 'Major Mono Display', 'Lato', sans-serif, monospace;
     margin: 0;
     text-shadow: 5px 0 0 rgba(255, 255, 255, 0.09);
   }
   p {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 400;
     margin: 1em 0 0;
+    text-shadow: 2px 0 0 rgba(255, 255, 255, 0.09);
   }
 
   a {
@@ -65,26 +67,8 @@ body {
     }
   }
 }
-.music{
-  display:none;
-}
 .footer{
   padding: 1% 5%;
-}
-.audio-info{
-  color: #d1d1d1;
-  font-family: "Lucida Console", sans-serif;
-  margin: 0;
-  font-size: .5em;
-  line-height: 1.2em;
-  height: 1.2em;
-  width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: width 20s ease;
-}
-.audio-info.show{
-  width: 100%;
 }
 @media all and (min-width: 767px) {
   .content {
@@ -110,19 +94,24 @@ body {
       font-size: 2em;
     }
   }
-  .audio-info{
-    font-size: .8em;
-  }
 }
 
 @media all and (min-width: 1199px) {
   .content {
-    padding: 5% 10%;
+    padding: 8% 10%;
   }
   .footer{
     padding: 1% 10%;
   }
-  .audio-info{
-    font-size: .9em;
+}
+
+/* Clips */
+.backgroundcliptext {
+  .content{
+    h1, p {
+        background: url("../clip.jpg");
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
   }
 }
