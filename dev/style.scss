@@ -110,7 +110,7 @@ body {
   .content{
     h1, p {
         background: url("../clip.jpg");
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
   }
