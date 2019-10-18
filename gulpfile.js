@@ -31,7 +31,7 @@ gulp.task('clean', function () {
     fs.readdir(dir, function (err, files) {
         if (files.length) {
             files.forEach(function (file, index) {
-                fs.unlink(dir + file);
+                fs.unlink(dir + file, ()=>{});
             });
         }
     });
