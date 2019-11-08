@@ -3,6 +3,8 @@
     /* Get window size on responsively */
     var wW = window.innerWidth - 10;
     var wH = window.innerHeight - 10;
+    /* Get Song */
+    var song = document.querySelector('#audio');
 
     window.onresize = function () {
         wW = window.innerWidth - 10;
@@ -68,17 +70,27 @@
     
     /* Stars born */
     play(wW, wH);
+    /* Stars are starting to journey in the Universe. */
+    setInterval(function () {
+        play(wW, wH);
+    }, 8000);    
     
-    document.addEventListener('click', function music(){
-        document.querySelector('#audio').play().then(function(){
-            document.querySelector("p#audio_credit").style.opacity = 1;
-        });
+    /* Show Song Credit */
+    song.addEventListener('play', function showCredit(){
+        document.querySelector("p#audio_credit").style.opacity = 1;
+        song.removeEventListener('play', showCredit);
+    });
 
-        /* Stars are starting to journey in the Universe. */
-        setInterval(function () {
-            play(wW, wH);
-        }, 8000);        
-
-        document.removeEventListener('click', music);
-    });    
+    /* Break silence in universe */
+    function music(e){
+        song.play();
+        document.removeEventListener(e.type, music);        
+    }  
+    document.addEventListener("click", music, false);
+    document.addEventListener("touchstart", music, false);
+    document.addEventListener("touchmove", music, false);
+    document.addEventListener("touchend", music, false);
+    document.addEventListener("touchcancel", music, false);    
+    document.addEventListener("touchforcechange", music, false);
 })(window);
+
