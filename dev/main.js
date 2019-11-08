@@ -24,9 +24,7 @@
             var left = randomPosition(width);
             var top = randomPosition(height);
 
-            star.style["background"] = randomColor();
-
-            
+            star.style["background"] = randomColor();           
 
             if ((index % 5 === 0)) {
                 star.style["width"] = "5px";
@@ -67,9 +65,20 @@
         }
         return array;
     }
-    /* Stars are starting to journey in the Universe. */
+    
+    /* Stars born */
     play(wW, wH);
-    setInterval(function () {
-        play(wW, wH);
-    }, 8000);
+    
+    document.addEventListener('click', function music(){
+        document.querySelector('#audio').play().then(function(){
+            document.querySelector("p#audio_credit").style.opacity = 1;
+        });
+
+        /* Stars are starting to journey in the Universe. */
+        setInterval(function () {
+            play(wW, wH);
+        }, 8000);        
+
+        document.removeEventListener('click', music);
+    });    
 })(window);

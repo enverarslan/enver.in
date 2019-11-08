@@ -43,6 +43,7 @@ body {
   padding: 5%;
   z-index: 2;
   color: #fff;
+  position: relative;
   h1 {
     font-size: 1.5em;
     line-height: 2rem;
@@ -113,8 +114,18 @@ body {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-	p{
-	    background-position: 0% 25%;
-	}
+    p{
+        background-position: 0% 25%;
+    }
   }
+}
+
+#audio{
+  display: none;
+}
+
+#audio_credit{
+  font-size: 1em;
+  opacity: 0;
+  transition: opacity .5s ease;
 }
