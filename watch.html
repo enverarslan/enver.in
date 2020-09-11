@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WAtch</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #player{
+            width: 720px;
+            height: 480px;
+            margin: 1em auto;
+        }
+    </style>
+</head>
+<body>
+<div id="player"></div>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script charset="UTF-8" src="//cdn.jsdelivr.net/npm/level-selector/dist/level-selector.min.js"></script>
+<script charset="UTF-8" src="//cdn.jsdelivr.net/npm/dash-shaka-playback/dist/dash-shaka-playback.min.js"></script>
+<script>
+    const faceStreams = [
+        "https://video.xx.fbcdn.net/hvideo-cln-odn/_nc_ohc-uetV31CMHLsAX8SVitw/_nc_cat-104/v/rhFhfl0Q6aO9b4yqWCX0q/live-dash/dash-abr-ibr-audio/193777788904931_0.mpd?_nc_rl=AfD-GikEf5-LsSL6&lvp=1&oh=217a9f488ef8f40ef86fae745587faac&oe=5F5D09F9&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-cln-lla/_nc_ohc-JkHnzyDWSv0AX9du2Qe/_nc_cat-109/v/rMRPXE-hWb32ZCmPmhUEM/live-dash/dash-abr-ibr-audio/193777842238259_0.mpd?_nc_rl=AfDqs_bBl-KiEaWw&lvp=1&oh=8efa6432037e7b0fd2386721da05edc2&oe=5F5D6CCC&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-prn-atn/_nc_ohc-jBBZMiIoEekAX-ZqxtL/_nc_cat-104/v/r0Twh7haMB92MYk6bLlH_/live-dash/dash-abr-ibr-audio/193777872238256_0.mpd?_nc_rl=AfDXzoi0v3wAQrxR&lvp=1&oh=11868e812361a1e8c7ddc77826b23755&oe=5F5D851F&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-prn-vll/_nc_ohc-p3FAkpYg7-AAX9a9lOP/_nc_cat-105/v/r-_igI0LIImX9RmU_pOwO/live-dash/dash-abr-ibr-audio/193777895571587_0.mpd?_nc_rl=AfCHWml8hfQoDQZE&lvp=1&oh=2f6d23168608d01fa2594a2c7f83fb61&oe=5F5D4AA7&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-vll-prn/_nc_ohc-JQ4xb5XiXK4AX-6sqY3/_nc_cat-104/v/rGQKXVdHmBLqI0v5QDl-G/live-dash/dash-abr-ibr-audio/193777978904912_0.mpd?_nc_rl=AfBBuTeodCSaG6Nu&lvp=1&oh=fe9636869c174c586dd895576100ceeb&oe=5F5D3F2A&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-prn-frc/_nc_ohc-JsyOy0M9l-0AX9on9Da/_nc_cat-103/v/r1i2G5qAnWZgKzqCfY0ND/live-dash/dash-abr-ibr-audio/193778008904909_0.mpd?_nc_rl=AfCosoLRyaRDJtxM&lvp=1&oh=011f391965fe7b4c50d1e114a1cc9588&oe=5F5D6EA3&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-lla-cln/_nc_ohc-xh0ylqGuMiIAX_7Zoh2/_nc_cat-108/v/rvWHMaPnCNnc2zdDmAIk5/live-dash/dash-abr-ibr-audio/193778145571562_0.mpd?_nc_rl=AfDmQg8-6GZ6lTj6&lvp=1&oh=738617e2dfb8643906c04503bd010243&oe=5F5D0E6C&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-cln-lla/_nc_ohc-5KUzvcdEro8AX_HxDjQ/_nc_cat-111/v/riSXoHxJDPdAbb94b9Z2R/live-dash/dash-abr-ibr-audio/193778118904898_0.mpd?_nc_rl=AfDLrvi0b4pjd8vH&lvp=1&oh=56b0aa6ebcb90af40b6316ae038b45bc&oe=5F5D1F4C&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-prn-frc/_nc_ohc-nEQNKi-hArsAX_i2TqT/_nc_cat-107/v/rPIYXOaXRJzOcgRYlJkP4/live-dash/dash-abr-ibr-audio/193778198904890_0.mpd?_nc_rl=AfDthgY2cKRNdwkm&lvp=1&oh=53d3df7044449dba9e3f2206e847e772&oe=5F5D3908&_nc_nc=1x",
+        "https://video.xx.fbcdn.net/hvideo-atn-frc/_nc_ohc-NCD01Ahh6ucAX9nddp_/_nc_cat-110/v/rqfZwNpZKfPgVMcmYhyw4/live-dash/dash-abr-ibr-audio/193778038904906_0.mpd?_nc_rl=AfDs9kMJcxu2L8Rw&lvp=1&oh=7420087e1f252ee589d9705099c2b5cd&oe=5F5CFBDA&_nc_nc=1x"];
+
+    const player = new Clappr.Player({
+        source: faceStreams[Math.floor(Math.random() * faceStreams.length)],
+        poster: undefined,
+        mute: false,
+        width: 720,
+        height: 480,
+        plugins: [LevelSelector, DashShakaPlayback],
+    });
+    player.attachTo(document.getElementById("player"));
+</script>
+</body>
+</html>
