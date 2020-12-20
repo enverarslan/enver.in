@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Enver Arslan</title>
+  <icon>https://blog.enver.in/icon.png</icon>
+  <subtitle>Subjects of software development, ideas behind algorithms.</subtitle>
+  <link href="https://blog.enver.in/atom.xml" rel="self"/>
+  
+  <link href="https://blog.enver.in/"/>
+  <updated>2020-12-20T19:14:49.600Z</updated>
+  <id>https://blog.enver.in/</id>
+  
+  <author>
+    <name>Enver Arslan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Çaba ve Arayış Üzerine</title>
+    <link href="https://blog.enver.in/caba-arayis-uzerine/"/>
+    <id>https://blog.enver.in/caba-arayis-uzerine/</id>
+    <published>2019-11-07T21:00:00.000Z</published>
+    <updated>2020-12-20T19:14:49.600Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Yaşamak bazen o kadar ağır geliyor ki, girdiğimiz mücadelelerin sonucunda elimizde ne var diye baktığımızda bir şeyler bulamayışımız, başarısızlıklarımız, pişmanlıklarımız ve eksikliklerimiz bizi bunaltıyor. Elde etmek, sahip olmak, başarmak, kazanmak etrafında şekillenmiş modern dünyada madalyonun öteki yüzünden, insan psikolojisinin ağır travmalar altında ezilişinden bahseden kimseyi bulamıyorsunuz. Herkesin hayatının güllük gülistanlık olduğunu gösterme uğraşı içerisinde olduğu çağda, gösteri toplumunun mutsuzluklarını gizlemeye çalışmaktan başka bir şey yapmadığını, bırakın buna bir çözüm bulmayı bunun farkında bile olmadığını görünce üzülüyorsunuz. Kendi yolunuzda gitmeye çalışırken bir de toplumun bu haliyle imtihan ediliyor olmak yaşamı daha da zorlaştırıyor. Toplum içerisinde bir yer edinmek, soyutlanmak, kendini gerçekleştirmek, tatmin olmak…&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Beklentiler, Vazgeçebilmek, Zenginlik ve İlişkiler Üzerine</title>
+    <link href="https://blog.enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/"/>
+    <id>https://blog.enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/</id>
+    <published>2019-10-27T21:00:00.000Z</published>
+    <updated>2020-12-20T20:55:34.844Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Beklenti-Uzerine&quot;&gt;&lt;a href=&quot;#Beklenti-Uzerine&quot; class=&quot;headerlink&quot; title=&quot;Beklenti Üzerine&quot;&gt;&lt;/a&gt;Beklenti Üzerine&lt;/h3&gt;&lt;p&gt;Hayatta bir şeyleri elde etmek için olur olmadık kişiler ve şeylerden beklenti içerisine giriyoruz. Kimisi oluyor, kimisi beklediğimizden daha iyisi şeklinde gerçekleşiyor, kimisi de bizi hayal kırıklıkları içerisinde bırakıyor. Fakat insanız, geleceğin daha iyi olacağı umuduyla bir şeylere bel bağlıyoruz, bir şeyler için çaba sarfediyoruz. Sizi kötü hissettirecek olan beklentilere sahip olmak değil bunların gerçekleşeceğine olan inancınızı içten içe yeşertip beklentilerinizi gerçeğiniz haline getirmek oluyor. Oysa hayat o kadar farklı kombinasyonlar içerisinde yaşanıyor ki beklediğiniz ve kendi gerçeğiniz haline getirdiğiniz şeyin sizin için gerçekten doğru mu, yanlış mı, hayırlı mı hayırsız mı olduğunu bilemiyorsunuz.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mücadele ve Acı Üzerine</title>
+    <link href="https://blog.enver.in/mucadele-aci-uzerine/"/>
+    <id>https://blog.enver.in/mucadele-aci-uzerine/</id>
+    <published>2019-10-27T21:00:00.000Z</published>
+    <updated>2020-12-20T20:22:44.579Z</updated>
+    
+    
+    <summary type="html">Hayatın içerisinde karşımıza çıkan problemler ve eksiklere karşı nasıl bir yol izlemeliyiz? sorusuna cevap aramak...</summary>
+    
+    
+    
+    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Computational Kindness</title>
+    <link href="https://blog.enver.in/computational-kindness/"/>
+    <id>https://blog.enver.in/computational-kindness/</id>
+    <published>2019-06-20T21:00:00.000Z</published>
+    <updated>2020-12-20T20:25:41.360Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;ing. hesaplamalı/hesaplanabilir nezaket/iyilik/kolaylık&lt;/p&gt;
+&lt;p&gt;Brian Christian ve Tom Griffiths tarafından yazılan &lt;a href=&quot;https://www.amazon.com/dp/1627790365/&quot;&gt;Algorithms To Live By&lt;/a&gt; adlı kitabın sonuç bölümünde bilgisayar bilimleri(computer science) literatürüne kazandırılmış kavram.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Laravel İle Yazılım Geliştirme Üzerine</title>
+    <link href="https://blog.enver.in/laravel-ile-yazilim-gelistirme-uzerine/"/>
+    <id>https://blog.enver.in/laravel-ile-yazilim-gelistirme-uzerine/</id>
+    <published>2019-01-20T21:00:00.000Z</published>
+    <updated>2020-12-20T20:44:19.382Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Laravel, son dört yıldır php dili ile bir uygulama geliştirme düşüncesine girdiğim an hep tercihim olmuş web uygulaması geliştirme çatısı.&lt;/p&gt;
+&lt;p&gt;bununla geliştirdiğim ve halihazırda sorunsuz bir şekilde çalışan, ara ara güncellediğim ve yeni özellikler eklediğim 10 taneden fazla web uygulaması mevcut. içerisinde elektronik ticaret, crm, sipariş otomasyonu, içerik yönetim sistemi, depo ürün lokasyon takibi, çok dilli içerik portalları, araç kiralama platformu vb. bulunan uygulamalar bunlar.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kod Yazmaya Başlayacaklara Tavsiyeler</title>
+    <link href="https://blog.enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/"/>
+    <id>https://blog.enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/</id>
+    <published>2019-01-10T21:00:00.000Z</published>
+    <updated>2020-12-20T20:53:35.624Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;uzun zamandır hakkında bir şeyler yazmak istediğim bir konu bu. hazır internet altyapısında bakımlar yapılırken gecenin geçmek bilmezliğini değerlendirmek için fırsat bulup zihnimi biraz boşaltayım.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    
+    
+  </entry>
+  
+</feed>
