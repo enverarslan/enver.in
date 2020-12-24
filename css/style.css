@@ -184,12 +184,9 @@ body {
 .article-category-link,
 .archive-year {
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 2px;
   color: #999;
-  margin-bottom: 1em;
   margin-left: 5px;
-  line-height: 1em;
   text-shadow: 0 1px #fff;
   font-weight: bold;
 }
@@ -531,7 +528,6 @@ body {
 }
 .article-category {
   float: left;
-  line-height: 1em;
   color: #ccc;
   text-shadow: 0 1px #fff;
   margin-left: 8px;
