@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Enver Arslan</title>
-  <icon>https://blog.enver.in/icon.png</icon>
+  <icon>https://enver.in/icon.png</icon>
   <subtitle>Subjects of software development, ideas behind algorithms.</subtitle>
-  <link href="https://blog.enver.in/atom.xml" rel="self"/>
+  <link href="https://enver.in/atom.xml" rel="self"/>
   
-  <link href="https://blog.enver.in/"/>
+  <link href="https://enver.in/"/>
   <updated>2020-12-20T19:14:49.600Z</updated>
-  <id>https://blog.enver.in/</id>
+  <id>https://enver.in/</id>
   
   <author>
     <name>Enver Arslan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Çaba ve Arayış Üzerine</title>
-    <link href="https://blog.enver.in/caba-arayis-uzerine/"/>
-    <id>https://blog.enver.in/caba-arayis-uzerine/</id>
+    <link href="https://enver.in/caba-arayis-uzerine/"/>
+    <id>https://enver.in/caba-arayis-uzerine/</id>
     <published>2019-11-07T21:00:00.000Z</published>
     <updated>2020-12-20T19:14:49.600Z</updated>
     
@@ -28,15 +28,15 @@
     
     
     
-    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    <category term="Hayat" scheme="https://enver.in/c/Hayat/"/>
     
     
   </entry>
   
   <entry>
     <title>Beklentiler, Vazgeçebilmek, Zenginlik ve İlişkiler Üzerine</title>
-    <link href="https://blog.enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/"/>
-    <id>https://blog.enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/</id>
+    <link href="https://enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/"/>
+    <id>https://enver.in/beklentiler-vazgecebilmek-zenginlik-ve-iliskiler-uzerine/</id>
     <published>2019-10-27T21:00:00.000Z</published>
     <updated>2020-12-20T20:55:34.844Z</updated>
     
@@ -45,15 +45,15 @@
     
     
     
-    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    <category term="Hayat" scheme="https://enver.in/c/Hayat/"/>
     
     
   </entry>
   
   <entry>
     <title>Mücadele ve Acı Üzerine</title>
-    <link href="https://blog.enver.in/mucadele-aci-uzerine/"/>
-    <id>https://blog.enver.in/mucadele-aci-uzerine/</id>
+    <link href="https://enver.in/mucadele-aci-uzerine/"/>
+    <id>https://enver.in/mucadele-aci-uzerine/</id>
     <published>2019-10-27T21:00:00.000Z</published>
     <updated>2020-12-20T20:22:44.579Z</updated>
     
@@ -62,15 +62,15 @@
     
     
     
-    <category term="Hayat" scheme="https://blog.enver.in/kategori/Hayat/"/>
+    <category term="Hayat" scheme="https://enver.in/c/Hayat/"/>
     
     
   </entry>
   
   <entry>
     <title>Computational Kindness</title>
-    <link href="https://blog.enver.in/computational-kindness/"/>
-    <id>https://blog.enver.in/computational-kindness/</id>
+    <link href="https://enver.in/computational-kindness/"/>
+    <id>https://enver.in/computational-kindness/</id>
     <published>2019-06-20T21:00:00.000Z</published>
     <updated>2020-12-20T20:25:41.360Z</updated>
     
@@ -80,15 +80,15 @@
     
     
     
-    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    <category term="Yazılım" scheme="https://enver.in/c/Yazilim/"/>
     
     
   </entry>
   
   <entry>
     <title>Laravel İle Yazılım Geliştirme Üzerine</title>
-    <link href="https://blog.enver.in/laravel-ile-yazilim-gelistirme-uzerine/"/>
-    <id>https://blog.enver.in/laravel-ile-yazilim-gelistirme-uzerine/</id>
+    <link href="https://enver.in/laravel-ile-yazilim-gelistirme-uzerine/"/>
+    <id>https://enver.in/laravel-ile-yazilim-gelistirme-uzerine/</id>
     <published>2019-01-20T21:00:00.000Z</published>
     <updated>2020-12-20T20:44:19.382Z</updated>
     
@@ -98,15 +98,15 @@
     
     
     
-    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    <category term="Yazılım" scheme="https://enver.in/c/Yazilim/"/>
     
     
   </entry>
   
   <entry>
     <title>Kod Yazmaya Başlayacaklara Tavsiyeler</title>
-    <link href="https://blog.enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/"/>
-    <id>https://blog.enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/</id>
+    <link href="https://enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/"/>
+    <id>https://enver.in/kod-yazmaya-baslayacaklara-tavsiyeler/</id>
     <published>2019-01-10T21:00:00.000Z</published>
     <updated>2020-12-20T20:53:35.624Z</updated>
     
@@ -115,7 +115,7 @@
     
     
     
-    <category term="Yazılım" scheme="https://blog.enver.in/kategori/Yazilim/"/>
+    <category term="Yazılım" scheme="https://enver.in/c/Yazilim/"/>
     
     
   </entry>

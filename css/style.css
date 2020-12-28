@@ -443,6 +443,18 @@ body {
   float: right;
   margin-right: -15px;
 }
+#nav-email-link:before {
+  content: "\f0e0";
+}
+#nav-github-link:before {
+  content: "\f113";
+}
+#nav-twitter-link:before {
+  content: "\f099";
+}
+#nav-linkedin-link:before {
+  content: "\f08c";
+}
 #nav-rss-link:before {
   content: "\f09e";
 }
