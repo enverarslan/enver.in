@@ -6,7 +6,7 @@
   <link href="https://enver.in/atom.xml" rel="self"/>
   
   <link href="https://enver.in/"/>
-  <updated>2020-12-28T07:44:41.521Z</updated>
+  <updated>2020-12-28T08:37:33.028Z</updated>
   <id>https://enver.in/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>index</title>
+    <link href="https://enver.in/home/"/>
+    <id>https://enver.in/home/</id>
+    <published>2020-12-28T11:37:33.000Z</published>
+    <updated>2020-12-28T08:37:33.028Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Kod Yazmaya Başlayacaklara Tavsiyeler</title>

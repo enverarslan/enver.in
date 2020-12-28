@@ -15,8 +15,23 @@
     <atom:link href="https://enver.in/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Enver Arslan&#39;s developer blog.</description>
-    <pubDate>Mon, 28 Dec 2020 07:44:41 GMT</pubDate>
+    <pubDate>Mon, 28 Dec 2020 08:37:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>index</title>
+      <link>https://enver.in/home/</link>
+      <guid>https://enver.in/home/</guid>
+      <pubDate>Mon, 28 Dec 2020 11:37:33 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>https://enver.in/home/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Kod Yazmaya Başlayacaklara Tavsiyeler</title>
