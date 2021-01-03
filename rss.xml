@@ -15,8 +15,31 @@
     <atom:link href="https://enver.in/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Enver Arslan&#39;s developer blog.</description>
-    <pubDate>Tue, 29 Dec 2020 11:38:14 GMT</pubDate>
+    <pubDate>Sun, 03 Jan 2021 13:31:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Node.js paketlerini kullanmayı düşünmek</title>
+      <link>https://enver.in/nodejs-paketlerini-kullanmayi-dusunmek/</link>
+      <guid>https://enver.in/nodejs-paketlerini-kullanmayi-dusunmek/</guid>
+      <pubDate>Sun, 03 Jan 2021 15:57:26 GMT</pubDate>
+      
+      <description>Bir Node.js paketini yüklemeye karar verirken bağımlılıklarına bakmayı düşünüyor muyuz?</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p><a href="https://nodejs.org/tr">Node.js</a> çalışma ortamı üzerinde koşacak uygulamalar yazmak isteyen kişinin iyice öğrenmesi gereken dil JavaScript.</p><p>Kod yazmaya başlayıp kütüphanelere ihtiyaç duydukça gidip dokümanı kurcalamak, neyi nasıl çağıracağını anlamak öğrenmeniz için yeterli. Wrapperlardan ibaret paketleri öğrenip <strong>Node.js biliyorum!</strong> demeden önce JavaScript dilini öğrenip ardından built-in kütüphaneleri keşfedin. Aslında bu Node.js’den bağımsız olarak bir yazılım teknolojisini öğrenmenin temel adımı. Sonrası kullanacağınız paketin dokümanına en fazla yarım saat bakıp kodunuzu çalışır hale getirmekten ibaret.</p><p>Sık yapılan yanlışlardan bir tanesi “Acaba bu işi yapan bir paket var mı?” sorusunu sorup hazırcılıkla proje bağımlılıklarını arttırmak, ardından eklediğiniz paketin başka paketlere bağımlılığıyla ortaya çıkan bağımlılık yönetimi problemiyle karşılaşmak ve bir gün derinlerdeki bir paketin güncelleme alması ile ona bağımlı paketlerle uyumsuzluk sorunuyla yüzleşmeniz.</p><p>Bir paketi yüklemeye karar verirken bağımlılıklarına bakmayı ve gerçekten bu pakete ihtiyacım var mı yoksa kendim çözebilir miyim diye düşünün. Sadece <a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/">11 satırlık kodun binlerce projeyi bozmasının hikayesi çok eski değil</a>.</p><p>Bir helper function yazmaktan imtina edip <code>npm install paket-adi</code> demenin bedeli ucuz olmayabilir.</p><p>Yararlı diye paylaşılan eğitimlere yanlış yöntemler kullanarak başlayıp sonra neden olmuyor diyerek kendinizi yıpratmanızı istemem.</p><p>Çünkü bir şeyi yanlış öğrenmek, öğrenememekten daha kötü. Bildiğinizi zannedip aynı hataları tekrar tekrar yapıp ardından doğruyu gösterene karşı tavır alıyorsunuz.</p>]]></content:encoded>
+      
+      
+      <category domain="https://enver.in/category/software/">software</category>
+      
+      
+      <category domain="https://enver.in/tag/javascript/">javascript</category>
+      
+      
+      <comments>https://enver.in/nodejs-paketlerini-kullanmayi-dusunmek/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Kod Yazmaya Başlayacaklara Tavsiyeler</title>
@@ -125,8 +148,8 @@
     
     <item>
       <title>Mücadele Üzerine</title>
-      <link>https://enver.in/mucadele-aci-uzerine/</link>
-      <guid>https://enver.in/mucadele-aci-uzerine/</guid>
+      <link>https://enver.in/mucadele-uzerine/</link>
+      <guid>https://enver.in/mucadele-uzerine/</guid>
       <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
       
       <description>Hayatın içerisinde karşımıza çıkan problemler ve eksiklere karşı nasıl bir yol izlemeliyiz? sorusuna cevap aramak...</description>
@@ -140,7 +163,7 @@
       
       
       
-      <comments>https://enver.in/mucadele-aci-uzerine/#disqus_thread</comments>
+      <comments>https://enver.in/mucadele-uzerine/#disqus_thread</comments>
       
     </item>
     
