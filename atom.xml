@@ -6,7 +6,7 @@
   <link href="https://enver.in/atom.xml" rel="self"/>
   
   <link href="https://enver.in/"/>
-  <updated>2021-01-03T13:31:34.992Z</updated>
+  <updated>2024-01-11T11:52:36.005Z</updated>
   <id>https://enver.in/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://enver.in/nodejs-paketlerini-kullanmayi-dusunmek/"/>
     <id>https://enver.in/nodejs-paketlerini-kullanmayi-dusunmek/</id>
     <published>2021-01-03T15:57:26.000Z</published>
-    <updated>2021-01-03T13:31:34.992Z</updated>
+    <updated>2024-01-11T11:52:36.005Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://nodejs.org/tr">Node.js</a> çalışma ortamı üzerinde koşacak uygulamalar yazmak isteyen kişinin iyice öğrenmesi gereken dil JavaScript.</p><p>Kod yazmaya başlayıp kütüphanelere ihtiyaç duydukça gidip dokümanı kurcalamak, neyi nasıl çağıracağını anlamak öğrenmeniz için yeterli. Wrapperlardan ibaret paketleri öğrenip <strong>Node.js biliyorum!</strong> demeden önce JavaScript dilini öğrenip ardından built-in kütüphaneleri keşfedin. Aslında bu Node.js’den bağımsız olarak bir yazılım teknolojisini öğrenmenin temel adımı. Sonrası kullanacağınız paketin dokümanına en fazla yarım saat bakıp kodunuzu çalışır hale getirmekten ibaret.</p><p>Sık yapılan yanlışlardan bir tanesi “Acaba bu işi yapan bir paket var mı?” sorusunu sorup hazırcılıkla proje bağımlılıklarını arttırmak, ardından eklediğiniz paketin başka paketlere bağımlılığıyla ortaya çıkan bağımlılık yönetimi problemiyle karşılaşmak ve bir gün derinlerdeki bir paketin güncelleme alması ile ona bağımlı paketlerle uyumsuzluk sorunuyla yüzleşmeniz.</p><p>Bir paketi yüklemeye karar verirken bağımlılıklarına bakmayı ve gerçekten bu pakete ihtiyacım var mı yoksa kendim çözebilir miyim diye düşünün. Sadece <a href="https://www.theregister.com/2016/03/23/npm_left_pad_chaos/">11 satırlık kodun binlerce projeyi bozmasının hikayesi çok eski değil</a>.</p><p>Bir helper function yazmaktan imtina edip <code>npm install paket-adi</code> demenin bedeli ucuz olmayabilir.</p><p>Yararlı diye paylaşılan eğitimlere yanlış yöntemler kullanarak başlayıp sonra neden olmuyor diyerek kendinizi yıpratmanızı istemem.</p><p>Çünkü bir şeyi yanlış öğrenmek, öğrenememekten daha kötü. Bildiğinizi zannedip aynı hataları tekrar tekrar yapıp ardından doğruyu gösterene karşı tavır alıyorsunuz.</p>]]></content>
     
@@ -30,10 +30,8 @@
     
     
     
-    <category term="software" scheme="https://enver.in/category/software/"/>
+    <category term="software" scheme="https://enver.in/c/software/"/>
     
-    
-    <category term="javascript" scheme="https://enver.in/tag/javascript/"/>
     
   </entry>
   
@@ -51,7 +49,7 @@
     
     
     
-    <category term="software" scheme="https://enver.in/category/software/"/>
+    <category term="software" scheme="https://enver.in/c/software/"/>
     
     
   </entry>
@@ -70,7 +68,7 @@
     
     
     
-    <category term="software" scheme="https://enver.in/category/software/"/>
+    <category term="software" scheme="https://enver.in/c/software/"/>
     
     
   </entry>
@@ -89,7 +87,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -108,7 +106,7 @@
     
     
     
-    <category term="software" scheme="https://enver.in/category/software/"/>
+    <category term="software" scheme="https://enver.in/c/software/"/>
     
     
   </entry>
@@ -127,7 +125,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -146,7 +144,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -165,7 +163,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -184,7 +182,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -203,7 +201,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
@@ -222,7 +220,7 @@
     
     
     
-    <category term="life" scheme="https://enver.in/category/life/"/>
+    <category term="life" scheme="https://enver.in/c/life/"/>
     
     
   </entry>
